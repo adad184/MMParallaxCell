@@ -64,7 +64,7 @@ UITableViewDataSource
     
     cell.textLabel.text = @"";
     
-    [cell.parallaxImage sd_setImageWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"http://lorempixel.com/400/400/sports/%ld/",indexPath.row]]];
+    [cell.parallaxImage sd_setImageWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"http://lorempixel.com/400/400/technics/%ld/",indexPath.row]]];
     
     return cell;
 }
