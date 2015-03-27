@@ -10,6 +10,7 @@ MMPlaceHolder
 A subclass of UITableViewCell to present the parallax effect. MMParallaxCell is a drop-in solution, basically you don't need to configure anything, but also you can customize it youself.
 
 Parallax effect in demo project
+
 ![demo](https://github.com/adad184/MMParallaxCell/blob/master/DEMO.gif)
 
 
