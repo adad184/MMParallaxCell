@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import <Masonry/Masonry.h>
 #import <SDWebImage/UIImageView+WebCache.h>
-#import "MMParallaxCell.h"
+#import <MMParallaxCell/MMParallaxCell.h>
 
 @interface ViewController ()
 <
@@ -60,6 +60,7 @@ UITableViewDataSource
     if (cell == nil)
     {
         cell = [[MMParallaxCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
+        cell.parallaxRatio = 1.2f;
     }
     
     cell.textLabel.text = @"";

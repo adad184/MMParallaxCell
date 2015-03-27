@@ -1,0 +1,1 @@
+../../../MMParallaxCell/Classes/MMParallaxCell.h

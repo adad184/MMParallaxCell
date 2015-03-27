@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
                    DESC
 
   s.homepage     = "https://github.com/adad184/MMParallaxCell"
-  s.screenshots  = "http://github.com/adad184/MMParallaxCell/raw/master/DEMO.gif"
+  # s.screenshots  = "https://github.com/adad184/MMParallaxCell/raw/master/DEMO.gif"
 
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

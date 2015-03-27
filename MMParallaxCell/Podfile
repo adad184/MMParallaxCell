@@ -5,6 +5,7 @@ target 'MMParallaxCell' do
 
 pod "Masonry", :head
 pod "SDWebImage", :head
+pod "MMParallaxCell", :head
 
 end
 
