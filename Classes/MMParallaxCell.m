@@ -7,7 +7,6 @@
 //
 
 #import "MMParallaxCell.h"
-#import <Masonry/Masonry.h>
 
 @interface MMParallaxCell()
 
