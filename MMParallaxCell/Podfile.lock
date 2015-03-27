@@ -1,0 +1,15 @@
+PODS:
+  - Masonry (HEAD based on 0.6.1)
+  - SDWebImage (HEAD based on 3.7.2):
+    - SDWebImage/Core (= HEAD based on 3.7.2)
+  - SDWebImage/Core (HEAD based on 3.7.2)
+
+DEPENDENCIES:
+  - Masonry (HEAD)
+  - SDWebImage (HEAD)
+
+SPEC CHECKSUMS:
+  Masonry: 2cb49fd14d203d2db5ca6bb017135b235dde9980
+  SDWebImage: 71b7cdc1d1721d6a82ed62889030225f2c249e29
+
+COCOAPODS: 0.36.0

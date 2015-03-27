@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24A77991CED76E1EF6CCF035 /* libPods-MMParallaxCell.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ACF01B004D56CA54C16FDB89 /* libPods-MMParallaxCell.a */; };
+		EDF6FF301AC4FD7C0064F4C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF6FF2F1AC4FD7C0064F4C6 /* main.m */; };
+		EDF6FF331AC4FD7C0064F4C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF6FF321AC4FD7C0064F4C6 /* AppDelegate.m */; };
+		EDF6FF361AC4FD7C0064F4C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF6FF351AC4FD7C0064F4C6 /* ViewController.m */; };
+		EDF6FF391AC4FD7C0064F4C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF6FF371AC4FD7C0064F4C6 /* Main.storyboard */; };
+		EDF6FF3B1AC4FD7C0064F4C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDF6FF3A1AC4FD7C0064F4C6 /* Images.xcassets */; };
+		EDF6FF3E1AC4FD7C0064F4C6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDF6FF3C1AC4FD7C0064F4C6 /* LaunchScreen.xib */; };
+		EDF6FF4A1AC4FD7C0064F4C6 /* MMParallaxCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF6FF491AC4FD7C0064F4C6 /* MMParallaxCellTests.m */; };
+		EDF6FF561AC500390064F4C6 /* MMParallaxCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF6FF551AC500390064F4C6 /* MMParallaxCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDF6FF441AC4FD7C0064F4C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDF6FF221AC4FD7C0064F4C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDF6FF291AC4FD7C0064F4C6;
+			remoteInfo = MMParallaxCell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		305B81300AFA4A08333D9986 /* Pods-MMParallaxCell.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMParallaxCell.release.xcconfig"; path = "Pods/Target Support Files/Pods-MMParallaxCell/Pods-MMParallaxCell.release.xcconfig"; sourceTree = "<group>"; };
+		ACF01B004D56CA54C16FDB89 /* libPods-MMParallaxCell.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MMParallaxCell.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD6360263364272678BDBDE7 /* Pods-MMParallaxCell.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMParallaxCell.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MMParallaxCell/Pods-MMParallaxCell.debug.xcconfig"; sourceTree = "<group>"; };
+		EDF6FF2A1AC4FD7C0064F4C6 /* MMParallaxCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMParallaxCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF6FF2E1AC4FD7C0064F4C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDF6FF2F1AC4FD7C0064F4C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDF6FF311AC4FD7C0064F4C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EDF6FF321AC4FD7C0064F4C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EDF6FF341AC4FD7C0064F4C6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EDF6FF351AC4FD7C0064F4C6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EDF6FF381AC4FD7C0064F4C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDF6FF3A1AC4FD7C0064F4C6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EDF6FF3D1AC4FD7C0064F4C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EDF6FF431AC4FD7C0064F4C6 /* MMParallaxCellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MMParallaxCellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF6FF481AC4FD7C0064F4C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDF6FF491AC4FD7C0064F4C6 /* MMParallaxCellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMParallaxCellTests.m; sourceTree = "<group>"; };
+		EDF6FF541AC500390064F4C6 /* MMParallaxCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMParallaxCell.h; path = ../Classes/MMParallaxCell.h; sourceTree = "<group>"; };
+		EDF6FF551AC500390064F4C6 /* MMParallaxCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMParallaxCell.m; path = ../Classes/MMParallaxCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDF6FF271AC4FD7C0064F4C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24A77991CED76E1EF6CCF035 /* libPods-MMParallaxCell.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF6FF401AC4FD7C0064F4C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20EE5DED0B6BC5993C160DB1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD6360263364272678BDBDE7 /* Pods-MMParallaxCell.debug.xcconfig */,
+				305B81300AFA4A08333D9986 /* Pods-MMParallaxCell.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		35627EAD2B523CB37BBA3AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACF01B004D56CA54C16FDB89 /* libPods-MMParallaxCell.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDF6FF211AC4FD7C0064F4C6 = {
+			isa = PBXGroup;
+			children = (
+				EDF6FF531AC500200064F4C6 /* Classes */,
+				EDF6FF2C1AC4FD7C0064F4C6 /* MMParallaxCell */,
+				EDF6FF461AC4FD7C0064F4C6 /* MMParallaxCellTests */,
+				EDF6FF2B1AC4FD7C0064F4C6 /* Products */,
+				20EE5DED0B6BC5993C160DB1 /* Pods */,
+				35627EAD2B523CB37BBA3AF4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EDF6FF2B1AC4FD7C0064F4C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDF6FF2A1AC4FD7C0064F4C6 /* MMParallaxCell.app */,
+				EDF6FF431AC4FD7C0064F4C6 /* MMParallaxCellTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDF6FF2C1AC4FD7C0064F4C6 /* MMParallaxCell */ = {
+			isa = PBXGroup;
+			children = (
+				EDF6FF311AC4FD7C0064F4C6 /* AppDelegate.h */,
+				EDF6FF321AC4FD7C0064F4C6 /* AppDelegate.m */,
+				EDF6FF341AC4FD7C0064F4C6 /* ViewController.h */,
+				EDF6FF351AC4FD7C0064F4C6 /* ViewController.m */,
+				EDF6FF371AC4FD7C0064F4C6 /* Main.storyboard */,
+				EDF6FF3A1AC4FD7C0064F4C6 /* Images.xcassets */,
+				EDF6FF3C1AC4FD7C0064F4C6 /* LaunchScreen.xib */,
+				EDF6FF2D1AC4FD7C0064F4C6 /* Supporting Files */,
+			);
+			path = MMParallaxCell;
+			sourceTree = "<group>";
+		};
+		EDF6FF2D1AC4FD7C0064F4C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDF6FF2E1AC4FD7C0064F4C6 /* Info.plist */,
+				EDF6FF2F1AC4FD7C0064F4C6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EDF6FF461AC4FD7C0064F4C6 /* MMParallaxCellTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDF6FF491AC4FD7C0064F4C6 /* MMParallaxCellTests.m */,
+				EDF6FF471AC4FD7C0064F4C6 /* Supporting Files */,
+			);
+			path = MMParallaxCellTests;
+			sourceTree = "<group>";
+		};
+		EDF6FF471AC4FD7C0064F4C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDF6FF481AC4FD7C0064F4C6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EDF6FF531AC500200064F4C6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EDF6FF541AC500390064F4C6 /* MMParallaxCell.h */,
+				EDF6FF551AC500390064F4C6 /* MMParallaxCell.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDF6FF291AC4FD7C0064F4C6 /* MMParallaxCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDF6FF4D1AC4FD7C0064F4C6 /* Build configuration list for PBXNativeTarget "MMParallaxCell" */;
+			buildPhases = (
+				80BDBC1CE78B5AC32EB69055 /* Check Pods Manifest.lock */,
+				EDF6FF261AC4FD7C0064F4C6 /* Sources */,
+				EDF6FF271AC4FD7C0064F4C6 /* Frameworks */,
+				EDF6FF281AC4FD7C0064F4C6 /* Resources */,
+				10FF2C64DC8BA619E63A49F1 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MMParallaxCell;
+			productName = MMParallaxCell;
+			productReference = EDF6FF2A1AC4FD7C0064F4C6 /* MMParallaxCell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDF6FF421AC4FD7C0064F4C6 /* MMParallaxCellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDF6FF501AC4FD7C0064F4C6 /* Build configuration list for PBXNativeTarget "MMParallaxCellTests" */;
+			buildPhases = (
+				EDF6FF3F1AC4FD7C0064F4C6 /* Sources */,
+				EDF6FF401AC4FD7C0064F4C6 /* Frameworks */,
+				EDF6FF411AC4FD7C0064F4C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDF6FF451AC4FD7C0064F4C6 /* PBXTargetDependency */,
+			);
+			name = MMParallaxCellTests;
+			productName = MMParallaxCellTests;
+			productReference = EDF6FF431AC4FD7C0064F4C6 /* MMParallaxCellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDF6FF221AC4FD7C0064F4C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = LJC;
+				TargetAttributes = {
+					EDF6FF291AC4FD7C0064F4C6 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					EDF6FF421AC4FD7C0064F4C6 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = EDF6FF291AC4FD7C0064F4C6;
+					};
+				};
+			};
+			buildConfigurationList = EDF6FF251AC4FD7C0064F4C6 /* Build configuration list for PBXProject "MMParallaxCell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDF6FF211AC4FD7C0064F4C6;
+			productRefGroup = EDF6FF2B1AC4FD7C0064F4C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDF6FF291AC4FD7C0064F4C6 /* MMParallaxCell */,
+				EDF6FF421AC4FD7C0064F4C6 /* MMParallaxCellTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDF6FF281AC4FD7C0064F4C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF6FF391AC4FD7C0064F4C6 /* Main.storyboard in Resources */,
+				EDF6FF3E1AC4FD7C0064F4C6 /* LaunchScreen.xib in Resources */,
+				EDF6FF3B1AC4FD7C0064F4C6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF6FF411AC4FD7C0064F4C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10FF2C64DC8BA619E63A49F1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MMParallaxCell/Pods-MMParallaxCell-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80BDBC1CE78B5AC32EB69055 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDF6FF261AC4FD7C0064F4C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF6FF361AC4FD7C0064F4C6 /* ViewController.m in Sources */,
+				EDF6FF331AC4FD7C0064F4C6 /* AppDelegate.m in Sources */,
+				EDF6FF561AC500390064F4C6 /* MMParallaxCell.m in Sources */,
+				EDF6FF301AC4FD7C0064F4C6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF6FF3F1AC4FD7C0064F4C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF6FF4A1AC4FD7C0064F4C6 /* MMParallaxCellTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDF6FF451AC4FD7C0064F4C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDF6FF291AC4FD7C0064F4C6 /* MMParallaxCell */;
+			targetProxy = EDF6FF441AC4FD7C0064F4C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDF6FF371AC4FD7C0064F4C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDF6FF381AC4FD7C0064F4C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDF6FF3C1AC4FD7C0064F4C6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDF6FF3D1AC4FD7C0064F4C6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDF6FF4B1AC4FD7C0064F4C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EDF6FF4C1AC4FD7C0064F4C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDF6FF4E1AC4FD7C0064F4C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD6360263364272678BDBDE7 /* Pods-MMParallaxCell.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MMParallaxCell/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EDF6FF4F1AC4FD7C0064F4C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 305B81300AFA4A08333D9986 /* Pods-MMParallaxCell.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MMParallaxCell/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EDF6FF511AC4FD7C0064F4C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MMParallaxCellTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MMParallaxCell.app/MMParallaxCell";
+			};
+			name = Debug;
+		};
+		EDF6FF521AC4FD7C0064F4C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MMParallaxCellTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MMParallaxCell.app/MMParallaxCell";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDF6FF251AC4FD7C0064F4C6 /* Build configuration list for PBXProject "MMParallaxCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF6FF4B1AC4FD7C0064F4C6 /* Debug */,
+				EDF6FF4C1AC4FD7C0064F4C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDF6FF4D1AC4FD7C0064F4C6 /* Build configuration list for PBXNativeTarget "MMParallaxCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF6FF4E1AC4FD7C0064F4C6 /* Debug */,
+				EDF6FF4F1AC4FD7C0064F4C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDF6FF501AC4FD7C0064F4C6 /* Build configuration list for PBXNativeTarget "MMParallaxCellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF6FF511AC4FD7C0064F4C6 /* Debug */,
+				EDF6FF521AC4FD7C0064F4C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDF6FF221AC4FD7C0064F4C6 /* Project object */;
+}
