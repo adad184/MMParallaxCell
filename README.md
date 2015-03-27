@@ -7,7 +7,9 @@ MMPlaceHolder
 [![Total views](https://sourcegraph.com/api/repos/github.com/adad184/MMParallaxCell/.counters/views.png)](https://sourcegraph.com/github.com/adad184/MMParallaxCell)
 [![Views in the last 24 hours](https://sourcegraph.com/api/repos/github.com/adad184/MMParallaxCell/.counters/views-24h.png)](https://sourcegraph.com/github.com/adad184/MMParallaxCell)
 
-A subclass of UITableViewCell to present the parallax effect. MMParallaxCell is a drop-in solution, basically you don't need to configure anything, but also you can customize it youself.
+A subclass of UITableViewCell to present the parallax effect. MMParallaxCell is a drop-in solution, basically you don't need to configure anything, but also you can customize it youself. 
+
+Besides, you don't have to add additional codes in UITableView's Delegate Method, use it as natural as UITableViewCell :)
 
 Parallax effect in demo project
 
