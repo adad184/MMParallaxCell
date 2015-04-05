@@ -1,8 +1,4 @@
 MMParallaxCell
-A subclass of UITableViewCell to present the parallax effect
-
-
-MMPlaceHolder
 =============
 [![Total views](https://sourcegraph.com/api/repos/github.com/adad184/MMParallaxCell/.counters/views.png)](https://sourcegraph.com/github.com/adad184/MMParallaxCell)
 [![Views in the last 24 hours](https://sourcegraph.com/api/repos/github.com/adad184/MMParallaxCell/.counters/views-24h.png)](https://sourcegraph.com/github.com/adad184/MMParallaxCell)
