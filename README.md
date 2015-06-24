@@ -2,6 +2,7 @@ MMParallaxCell
 =============
 [![Total views](https://sourcegraph.com/api/repos/github.com/adad184/MMParallaxCell/.counters/views.png)](https://sourcegraph.com/github.com/adad184/MMParallaxCell)
 [![Views in the last 24 hours](https://sourcegraph.com/api/repos/github.com/adad184/MMParallaxCell/.counters/views-24h.png)](https://sourcegraph.com/github.com/adad184/MMParallaxCell)
+[![Cocoapods](https://cocoapod-badges.herokuapp.com/v/MMParallaxCell/badge.png)](http://cocoapods.org/?q=MMParallaxCell)
 
 A subclass of UITableViewCell to present the parallax effect. MMParallaxCell is a drop-in solution, basically you don't need to configure anything, but also you can customize it youself. 
 
@@ -63,6 +64,9 @@ and you can change the ratio of the parallax effect.
 
 Changelog
 ===============
+
+v1.1  fixed crash caused by "removeObserver"
+
 v1.0  you can custom or simply use it by
 
 ```objc
