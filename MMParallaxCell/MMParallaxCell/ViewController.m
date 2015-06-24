@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import <Masonry/Masonry.h>
 #import <SDWebImage/UIImageView+WebCache.h>
-#import <MMParallaxCell/MMParallaxCell.h>
+#import "MMParallaxCell.h"
 
 @interface ViewController ()
 <

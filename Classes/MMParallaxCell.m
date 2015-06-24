@@ -63,16 +63,30 @@
 {
     [super removeFromSuperview];
     
-    [self.parentTableView removeObserver:self forKeyPath:@"contentOffset" context:nil];
+    @try {
+        [self.parentTableView removeObserver:self forKeyPath:@"contentOffset" context:nil];
+    }
+    @catch (NSException *exception) {
+        
+    }
+    @finally {
+        self.parentTableView = nil;
+    }
     
-    self.parentTableView = nil;
 }
 
 - (void)dealloc
 {
-    [self.parentTableView removeObserver:self forKeyPath:@"contentOffset" context:nil];
+    @try {
+        [self.parentTableView removeObserver:self forKeyPath:@"contentOffset" context:nil];
+    }
+    @catch (NSException *exception) {
+        
+    }
+    @finally {
+        self.parentTableView = nil;
+    }
     
-    self.parentTableView = nil;
 }
 
 - (void)layoutSubviews

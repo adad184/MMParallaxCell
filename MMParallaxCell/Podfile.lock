@@ -1,18 +1,15 @@
 PODS:
   - Masonry (HEAD based on 0.6.1)
-  - MMParallaxCell (HEAD based on 1.0)
   - SDWebImage (HEAD based on 3.7.2):
     - SDWebImage/Core (= HEAD based on 3.7.2)
   - SDWebImage/Core (HEAD based on 3.7.2)
 
 DEPENDENCIES:
   - Masonry (HEAD)
-  - MMParallaxCell (HEAD)
   - SDWebImage (HEAD)
 
 SPEC CHECKSUMS:
-  Masonry: 2cb49fd14d203d2db5ca6bb017135b235dde9980
-  MMParallaxCell: 66dd6c1378cd49bbee30a7fe542ae64776076c92
+  Masonry: 4972309f2f134de9dd312f4dc4a21359b50e6caa
   SDWebImage: 71b7cdc1d1721d6a82ed62889030225f2c249e29
 
-COCOAPODS: 0.36.1
+COCOAPODS: 0.37.2
