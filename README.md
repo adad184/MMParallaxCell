@@ -65,6 +65,8 @@ and you can change the ratio of the parallax effect.
 Changelog
 ===============
 
+v1.2  now it's more safer when using KVO in code (thx @keyboardsamurai) and you can used for custom nibs (thx @kirualex)
+
 v1.1  fixed crash caused by "removeObserver"
 
 v1.0  you can custom or simply use it by
