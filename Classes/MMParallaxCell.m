@@ -40,53 +40,66 @@
 {
     [super willMoveToSuperview:newSuperview];
     
-    UIView *v = newSuperview;
     
+    [self safeRemoveObserver];
+    
+    UIView *v = newSuperview;
     while ( v )
     {
         if ( [v isKindOfClass:[UITableView class]] )
         {
-            
             self.parentTableView = (UITableView*)v;
             break;
         }
         v = v.superview;
     }
-    
-    if ( self.parentTableView )
-    {
-        [self.parentTableView addObserver:self forKeyPath:@"contentOffset" options:NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld context:nil];
-    }
+    [self safeAddObserver];
 }
 
 - (void)removeFromSuperview
 {
     [super removeFromSuperview];
     
-    @try {
-        [self.parentTableView removeObserver:self forKeyPath:@"contentOffset" context:nil];
+    [self safeRemoveObserver];
+}
+
+- (void)safeAddObserver
+{
+    if ( self.parentTableView )
+    {
+        @try
+        {
+            [self.parentTableView addObserver:self forKeyPath:@"contentOffset" options:NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld context:nil];
+        }
+        @catch(NSException *exception)
+        {
+            
+        }
     }
-    @catch (NSException *exception) {
-        
+}
+
+- (void)safeRemoveObserver
+{
+    if ( self.parentTableView )
+    {
+        @try
+        {
+            [self.parentTableView removeObserver:self forKeyPath:@"contentOffset" context:nil];
+        }
+        @catch (NSException *exception)
+        {
+            
+        }
+        @finally
+        {
+            self.parentTableView = nil;
+        }
     }
-    @finally {
-        self.parentTableView = nil;
-    }
-    
 }
 
 - (void)dealloc
 {
-    @try {
-        [self.parentTableView removeObserver:self forKeyPath:@"contentOffset" context:nil];
-    }
-    @catch (NSException *exception) {
-        
-    }
-    @finally {
-        self.parentTableView = nil;
-    }
-    
+    [self safeRemoveObserver];
 }
 
 - (void)layoutSubviews
