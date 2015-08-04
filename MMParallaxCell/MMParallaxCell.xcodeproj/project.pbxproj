@@ -11,9 +11,7 @@
 		EDF6FF301AC4FD7C0064F4C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF6FF2F1AC4FD7C0064F4C6 /* main.m */; };
 		EDF6FF331AC4FD7C0064F4C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF6FF321AC4FD7C0064F4C6 /* AppDelegate.m */; };
 		EDF6FF361AC4FD7C0064F4C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF6FF351AC4FD7C0064F4C6 /* ViewController.m */; };
-		EDF6FF391AC4FD7C0064F4C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF6FF371AC4FD7C0064F4C6 /* Main.storyboard */; };
 		EDF6FF3B1AC4FD7C0064F4C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDF6FF3A1AC4FD7C0064F4C6 /* Images.xcassets */; };
-		EDF6FF3E1AC4FD7C0064F4C6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDF6FF3C1AC4FD7C0064F4C6 /* LaunchScreen.xib */; };
 		EDF6FF4A1AC4FD7C0064F4C6 /* MMParallaxCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF6FF491AC4FD7C0064F4C6 /* MMParallaxCellTests.m */; };
 		EDF6FF561AC500390064F4C6 /* MMParallaxCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF6FF551AC500390064F4C6 /* MMParallaxCell.m */; };
 /* End PBXBuildFile section */
@@ -39,9 +37,7 @@
 		EDF6FF321AC4FD7C0064F4C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EDF6FF341AC4FD7C0064F4C6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		EDF6FF351AC4FD7C0064F4C6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		EDF6FF381AC4FD7C0064F4C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EDF6FF3A1AC4FD7C0064F4C6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		EDF6FF3D1AC4FD7C0064F4C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		EDF6FF431AC4FD7C0064F4C6 /* MMParallaxCellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MMParallaxCellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDF6FF481AC4FD7C0064F4C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDF6FF491AC4FD7C0064F4C6 /* MMParallaxCellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMParallaxCellTests.m; sourceTree = "<group>"; };
@@ -113,9 +109,7 @@
 				EDF6FF321AC4FD7C0064F4C6 /* AppDelegate.m */,
 				EDF6FF341AC4FD7C0064F4C6 /* ViewController.h */,
 				EDF6FF351AC4FD7C0064F4C6 /* ViewController.m */,
-				EDF6FF371AC4FD7C0064F4C6 /* Main.storyboard */,
 				EDF6FF3A1AC4FD7C0064F4C6 /* Images.xcassets */,
-				EDF6FF3C1AC4FD7C0064F4C6 /* LaunchScreen.xib */,
 				EDF6FF2D1AC4FD7C0064F4C6 /* Supporting Files */,
 			);
 			path = MMParallaxCell;
@@ -238,8 +232,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDF6FF391AC4FD7C0064F4C6 /* Main.storyboard in Resources */,
-				EDF6FF3E1AC4FD7C0064F4C6 /* LaunchScreen.xib in Resources */,
 				EDF6FF3B1AC4FD7C0064F4C6 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,25 +307,6 @@
 			targetProxy = EDF6FF441AC4FD7C0064F4C6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		EDF6FF371AC4FD7C0064F4C6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EDF6FF381AC4FD7C0064F4C6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		EDF6FF3C1AC4FD7C0064F4C6 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EDF6FF3D1AC4FD7C0064F4C6 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		EDF6FF4B1AC4FD7C0064F4C6 /* Debug */ = {
@@ -417,6 +390,7 @@
 			baseConfigurationReference = AD6360263364272678BDBDE7 /* Pods-MMParallaxCell.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = MMParallaxCell/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -429,6 +403,7 @@
 			baseConfigurationReference = 305B81300AFA4A08333D9986 /* Pods-MMParallaxCell.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = MMParallaxCell/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
