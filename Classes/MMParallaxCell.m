@@ -20,20 +20,30 @@
 {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
-        // Initialization code
-        
-        self.contentView.backgroundColor = [UIColor whiteColor];
-        
-        self.parallaxImage = [UIImageView new];
-        [self.contentView addSubview:self.parallaxImage];
-        self.parallaxImage.backgroundColor = [UIColor whiteColor];
-        self.parallaxImage.contentMode = UIViewContentModeScaleAspectFill;
-        self.clipsToBounds = YES;
-        
-        self.parallaxRatio = 1.5f;
+        [self setup];
     }
     
     return self;
+}
+
+- (void)awakeFromNib
+{
+	[self setup];
+}
+
+- (void) setup
+{
+    // Initialization code
+    self.contentView.backgroundColor = [UIColor whiteColor];
+	
+	self.parallaxImage = [UIImageView new];
+	[self.contentView addSubview:self.parallaxImage];
+	[self.contentView sendSubviewToBack:self.parallaxImage];
+	self.parallaxImage.backgroundColor = [UIColor whiteColor];
+	self.parallaxImage.contentMode = UIViewContentModeScaleAspectFill;
+	self.clipsToBounds = YES;
+	
+	self.parallaxRatio = 1.5f;
 }
 
 - (void)willMoveToSuperview:(UIView *)newSuperview
