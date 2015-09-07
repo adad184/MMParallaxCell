@@ -1,8 +1,8 @@
 MMParallaxCell
 =============
-[![Total views](https://sourcegraph.com/api/repos/github.com/adad184/MMParallaxCell/.counters/views.png)](https://sourcegraph.com/github.com/adad184/MMParallaxCell)
-[![Views in the last 24 hours](https://sourcegraph.com/api/repos/github.com/adad184/MMParallaxCell/.counters/views-24h.png)](https://sourcegraph.com/github.com/adad184/MMParallaxCell)
-[![Cocoapods](https://cocoapod-badges.herokuapp.com/v/MMParallaxCell/badge.png)](http://cocoapods.org/?q=MMParallaxCell)
+[![CocoaPods](https://img.shields.io/cocoapods/v/MMParallaxCell.svg)]()
+[![CocoaPods](https://img.shields.io/cocoapods/p/MMParallaxCell.svg)]()
+[![CocoaPods](https://img.shields.io/cocoapods/l/MMParallaxCell.svg)]()
 
 A subclass of UITableViewCell to present the parallax effect. MMParallaxCell is a drop-in solution, basically you don't need to configure anything, but also you can customize it youself. 
 
